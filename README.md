@@ -50,3 +50,8 @@
 1. Raise the sphere radius to the power of three.
 2. Multiply the result from the step one by the product of PI(π) and 4/3
 3. Print the result you get from step 2.
+
+## Numbers
+
+![image](https://user-images.githubusercontent.com/128996495/229263025-7cb5d224-ec8b-4c6c-8cbc-70e121fe0d8c.png)
+
