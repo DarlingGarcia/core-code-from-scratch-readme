@@ -22,3 +22,15 @@
 7. Wait for 20 minutes
 8. Cut the pizza with round pizza cutter
 9. Serve the pizza
+
+##  Hot N Cold
+
+### Celsius to Fahrenheit
+1. Multiply the temperature in Celsius by 9/5.
+2. Add 32 to the result from step one
+3. What you end up with is the temperature in Fahrenheit
+
+### Fahrenheit to Celsius
+1. Subtract 32 from the temperature in Fahrenheit
+2. Multiply the result from step one by 5/9.
+3. What you end up with is the temperature in Celsius
