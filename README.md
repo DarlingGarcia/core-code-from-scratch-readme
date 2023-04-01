@@ -53,5 +53,6 @@
 
 ## Numbers
 
-![image](https://user-images.githubusercontent.com/128996495/229263025-7cb5d224-ec8b-4c6c-8cbc-70e121fe0d8c.png)
+![image](https://user-images.githubusercontent.com/128996495/229263249-dc9611b3-44b1-40ce-8ff0-bf78c0a15558.png)
+
 
