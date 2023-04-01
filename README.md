@@ -53,6 +53,11 @@
 
 ## Numbers
 
+1. Get a number as an input
+2. Check if the input is divisible by 2 with no decimal point
+3. If the input is Even, then print "The numer is Even"
+4. If the number is Odd, then print "The number is Odd"
+5. End
 ![image](https://user-images.githubusercontent.com/128996495/229263249-dc9611b3-44b1-40ce-8ff0-bf78c0a15558.png)
 
 
