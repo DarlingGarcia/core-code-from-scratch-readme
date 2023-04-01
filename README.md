@@ -34,3 +34,19 @@
 1. Subtract 32 from the temperature in Fahrenheit
 2. Multiply the result from step one by 5/9.
 3. What you end up with is the temperature in Celsius
+
+## Some Geometry
+
+### Volume of a pyramid
+1. Multiply 1/3 by base length
+2. Multiply the result from step 1 by the product of the base width and the height
+3. Print the result from step 2
+
+### Volume of a cube
+1. Raise any of its sides to the power of three.
+2. Print the result of the step one.
+
+### Volume of a sphere
+1. Raise the sphere radius to the power of three.
+2. Multiply the result from the step one by the product of PI(π) and 4/3
+3. Print the result you get from step 2.
