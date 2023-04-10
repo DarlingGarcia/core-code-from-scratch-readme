@@ -51,7 +51,7 @@
 2. Multiply the result from the step one by the product of PI(π) and 4/3
 3. Print the result you get from step 2.
 
-### Numbers
+## Numbers
 
 1. Get a number as an input
 2. Check if the input is divisible by 2 with no decimal point
@@ -62,7 +62,7 @@
 
 ![image](https://user-images.githubusercontent.com/128996495/229263249-dc9611b3-44b1-40ce-8ff0-bf78c0a15558.png)
 
-### How old are you
+## How old are you
 
 1. Ask what year, month, and the day the user was born in.
 2. Save the info in "birth_year," "birth_month", and "birth_day" variables respectively
@@ -71,7 +71,7 @@
 5. If today's date is behind "birth_month" and "birth_day," then subtract 1 to "year_result"
 6. Print "year_result"
 
-### Treasure
+## Treasure
 
 We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
 
