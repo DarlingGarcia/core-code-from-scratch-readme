@@ -70,3 +70,18 @@
 4. Save the result in a variable called "year_result"
 5. If today's date is behind "birth_month" and "birth_day," then subtract 1 to "year_result"
 6. Print "year_result"
+
+### Treasure
+
+We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
+
+We're going to get the truth from each lie. Then, remove the illogical conclusions.
+
+Left chest: The middle chest has a treasure / Truth: The middle chest doesn't have a treasure, so chest A and chest C have a treasure in them.
+
+Middle chest: All these chests have treasures in them / Truth: All of these chests don't have a treasure, yet we know that at least one chest has a treasure in it.
+
+Right chest: Only one of these chests has treasures / Truth: Only one of these chest doesn't have a treasure, so two chests have treasure in them.
+
+The left and right chest tell us the same logical conclusion. However, the middle chest contradicts what we know about them.
+Therefore, we can conclude that chest A and chest C have a treasure in them.
