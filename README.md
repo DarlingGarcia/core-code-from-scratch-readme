@@ -51,7 +51,7 @@
 2. Multiply the result from the step one by the product of PI(π) and 4/3
 3. Print the result you get from step 2.
 
-## Numbers
+### Numbers
 
 1. Get a number as an input
 2. Check if the input is divisible by 2 with no decimal point
@@ -62,4 +62,11 @@
 
 ![image](https://user-images.githubusercontent.com/128996495/229263249-dc9611b3-44b1-40ce-8ff0-bf78c0a15558.png)
 
+### How old are you
 
+1. Ask what year, month, and the day the user was born in.
+2. Save the info in "birth_year," "birth_month", and "birth_day" variables respectively
+3. Subtract "birth_year" from the current year. For instance, 2023-2001
+4. Save the result in a variable called "year_result"
+5. If today's date is behind "birth_month" and "birth_day," then subtract 1 to "year_result"
+6. Print "year_result"
