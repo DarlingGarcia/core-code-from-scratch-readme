@@ -105,3 +105,8 @@ FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/128996495/231322623-bfd4bc97-92a6-4630-81f9-cf673b740724.png)
 
+### Flowchart
+
+![image](https://user-images.githubusercontent.com/128996495/231326406-6f726492-009c-48e7-b3af-36c871032238.png)
+
+
