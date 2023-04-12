@@ -99,9 +99,9 @@ Algoritmo CerealWithMilkRecipe\
 		Escribir "Enjoy your bowl of cereal"\
 	SiNo\
 		Escribir "Enjoy your bowl of cereal"\
-	Fin Si\
+	Fin Si
 	
-FinAlgoritmo\
+FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/128996495/231322623-bfd4bc97-92a6-4630-81f9-cf673b740724.png)
 
