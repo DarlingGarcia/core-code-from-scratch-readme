@@ -91,15 +91,15 @@ Therefore, we can conclude that chest A and chest C have a treasure in them.
 Algoritmo CerealWithMilkRecipe\
 	Escribir "Do you want your cereal with strawberries?"\
 	Leer cerealWithStrawberries\
-	\tEscribir "Grab a 12 oz bowl"\
-	\tEscribir "Pour milk into the bowl"\
-	\tEscribir "Add the cereal of your preference"\
-	\tSi cerealWithStrawberries == "yes" Entonces\
-		\t\tEscribir "Add strawberries"\
-		\t\tEscribir "Enjoy your bowl of cereal"\
-	\tSiNo\
-		\t\tEscribir "Enjoy your bowl of cereal"\
-	\tFin Si\
+	Escribir "Grab a 12 oz bowl"\
+	Escribir "Pour milk into the bowl"\
+	Escribir "Add the cereal of your preference"\
+	Si cerealWithStrawberries == "yes" Entonces\
+		Escribir "Add strawberries"\
+		Escribir "Enjoy your bowl of cereal"\
+	SiNo\
+		Escribir "Enjoy your bowl of cereal"\
+	Fin Si\
 	
 FinAlgoritmo\
 
