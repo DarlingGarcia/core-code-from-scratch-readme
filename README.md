@@ -85,3 +85,24 @@ Right chest: Only one of these chests has treasures / Truth: Only one of these c
 
 The left and right chest tell us the same logical conclusion. However, the middle chest contradicts what we know about them.
 Therefore, we can conclude that chest A and chest C have a treasure in them.
+
+## Which comes first, cereal or milk?
+
+Algoritmo CerealWithMilkRecipe
+	Escribir "Do you want your cereal with strawberries?"
+	Leer cerealWithStrawberries
+	Escribir "Grab a 12 oz bowl"
+	Escribir "Pour milk into the bowl"
+	Escribir "Add the cereal of your preference"
+	Si cerealWithStrawberries == "yes" Entonces
+		Escribir "Add strawberries"
+		Escribir "Enjoy your bowl of cereal"
+	SiNo
+		Escribir "Enjoy your bowl of cereal"
+	Fin Si
+
+	
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/128996495/231322623-bfd4bc97-92a6-4630-81f9-cf673b740724.png)
+
