@@ -89,8 +89,8 @@ Therefore, we can conclude that chest A and chest C have a treasure in them.
 ## Which comes first, cereal or milk?
 
 Algoritmo CerealWithMilkRecipe\
-	\tEscribir "Do you want your cereal with strawberries?"\
-	\tLeer cerealWithStrawberries\
+	Escribir "Do you want your cereal with strawberries?"\
+	Leer cerealWithStrawberries\
 	\tEscribir "Grab a 12 oz bowl"\
 	\tEscribir "Pour milk into the bowl"\
 	\tEscribir "Add the cereal of your preference"\
