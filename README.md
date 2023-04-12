@@ -109,4 +109,22 @@ FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/128996495/231326406-6f726492-009c-48e7-b3af-36c871032238.png)
 
+## Week 2 Logic Problem
+
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".
+Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+If Alice is telling the truth, then she can't say that she studied since this is a contradiction.
+
+Two statements cannot be true at the same time. For instance, "1 person studied..." and "2 people studied..." cannot possibly be true at the same time.
+
+Therefore, the remaining solution is what Bob is telling. As he can be telling the truth, the only person that studied.
+
 
