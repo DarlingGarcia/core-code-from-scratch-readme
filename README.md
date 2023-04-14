@@ -194,3 +194,20 @@ Algoritmo UserForm
 	FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/128996495/231924321-05046aa0-c6aa-499c-955b-7898cab626da.png)
+
+## Truth Tables
+
+1. T & T = T ✅
+2. T & F = F ✅
+3. F & T = T ❌
+4. F & F = F ✅
+5. T | T = T ✅
+6. T | F = F ❌
+7. F | T = T ✅
+8. F | F = F ✅
+9. ~T = T ❌
+10. ~F = T ✅
+11. (T & F) | (~F) = T ✅
+12. (T | F ) & (F | F) = T ❌
+13. ~((T | F ) & (F | F)) & F = T ❌
+14. ~((T | F ) & (F | F)) & T = F ❌
