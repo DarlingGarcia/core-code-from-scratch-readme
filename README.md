@@ -144,4 +144,7 @@ FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/128996495/231912223-90a0b5cb-fc9e-482e-90ef-89712ab9794f.png)
 
+## Week 2 Algorithm Game
+
+![image](https://user-images.githubusercontent.com/128996495/231914436-34206f09-915a-4728-8e09-49ce32b66682.png)
 
