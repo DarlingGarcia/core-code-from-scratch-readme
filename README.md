@@ -163,3 +163,6 @@ FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/128996495/231916910-7ed17a6f-a8d7-4770-94e3-c5c3f4d29ce1.png)
 
 
+## Week 2 Register Form
+
+![image](https://user-images.githubusercontent.com/128996495/231924321-05046aa0-c6aa-499c-955b-7898cab626da.png)
