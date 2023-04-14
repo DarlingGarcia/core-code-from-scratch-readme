@@ -135,3 +135,13 @@ FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/128996495/231911779-520f5ce3-199b-4251-a125-37cdafe87b22.png)
 
+## Week 2 Print My Name and Age
+
+Algoritmo myNameAndAge\
+	Imprimir "Darling Garcia"\
+	Imprimir 34\
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/128996495/231912223-90a0b5cb-fc9e-482e-90ef-89712ab9794f.png)
+
+
