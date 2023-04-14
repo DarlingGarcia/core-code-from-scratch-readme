@@ -127,4 +127,11 @@ Two statements cannot be true at the same time. For instance, "1 person studied.
 
 Therefore, the remaining solution is what Bob is telling. As he can be telling the truth, the only person that studied.
 
+## Week 2 Print My Name
+
+Algoritmo myName\
+	Imprimir "Darling Garcia"\
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/128996495/231911779-520f5ce3-199b-4251-a125-37cdafe87b22.png)
 
