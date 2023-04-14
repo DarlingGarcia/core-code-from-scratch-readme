@@ -164,5 +164,33 @@ FinAlgoritmo
 
 
 ## Week 2 Register Form
-
+```
+Algoritmo UserForm
+	Imprimir "======================="
+	Imprimir "User Form"
+	Imprimir "First Name"
+	firstName = ""
+	Leer firstName
+	Imprimir "Last Name"
+	lastName = ""
+	Leer lastName
+	Imprimir "Age"
+	age = ""
+	Leer age
+	Imprimir "Email"
+	email = ""
+	Leer email
+	Imprimir "Address"
+	address = ""
+	Leer address
+	
+	Imprimir "======================="
+	Imprimir "User Data"
+	Imprimir "First Name: " + firstName
+	Imprimir "Last Name: " + lastName
+	Imprimir "Age: " + age
+	Imprimir "Email: " + email
+	Imprimir "Address: " + address
+	FinAlgoritmo
+```
 ![image](https://user-images.githubusercontent.com/128996495/231924321-05046aa0-c6aa-499c-955b-7898cab626da.png)
