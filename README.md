@@ -87,22 +87,22 @@ The left and right chest tell us the same logical conclusion. However, the middl
 Therefore, we can conclude that chest A and chest C have a treasure in them.
 
 ## Which comes first, cereal or milk?
-
-Algoritmo CerealWithMilkRecipe\
-	Escribir "Do you want your cereal with strawberries?"\
-	Leer cerealWithStrawberries\
-	Escribir "Grab a 12 oz bowl"\
-	Escribir "Pour milk into the bowl"\
-	Escribir "Add the cereal of your preference"\
-	Si cerealWithStrawberries == "yes" Entonces\
-		Escribir "Add strawberries"\
-		Escribir "Enjoy your bowl of cereal"\
-	SiNo\
-		Escribir "Enjoy your bowl of cereal"\
+```
+Algoritmo CerealWithMilkRecipe
+	Escribir "Do you want your cereal with strawberries?"
+	Leer cerealWithStrawberries
+	Escribir "Grab a 12 oz bowl"
+	Escribir "Pour milk into the bowl"
+	Escribir "Add the cereal of your preference"
+	Si cerealWithStrawberries == "yes" Entonces
+		Escribir "Add strawberries"
+		Escribir "Enjoy your bowl of cereal"
+	SiNo
+		Escribir "Enjoy your bowl of cereal"
 	Fin Si
 	
 FinAlgoritmo
-
+```
 ![image](https://user-images.githubusercontent.com/128996495/231322623-bfd4bc97-92a6-4630-81f9-cf673b740724.png)
 
 ### Flowchart
@@ -128,20 +128,20 @@ Two statements cannot be true at the same time. For instance, "1 person studied.
 Therefore, the remaining solution is what Bob is telling. As he can be telling the truth, the only person that studied.
 
 ## Week 2 Print My Name
-
-Algoritmo myName\
-	Imprimir "Darling Garcia"\
+```
+Algoritmo myName
+	Imprimir "Darling Garcia"
 FinAlgoritmo
-
+```
 ![image](https://user-images.githubusercontent.com/128996495/231911779-520f5ce3-199b-4251-a125-37cdafe87b22.png)
 
 ## Week 2 Print My Name and Age
-
-Algoritmo myNameAndAge\
-	Imprimir "Darling Garcia"\
-	Imprimir 34\
+```
+Algoritmo myNameAndAge
+	Imprimir "Darling Garcia"
+	Imprimir 34
 FinAlgoritmo
-
+```
 ![image](https://user-images.githubusercontent.com/128996495/231912223-90a0b5cb-fc9e-482e-90ef-89712ab9794f.png)
 
 ## Week 2 Algorithm Game
