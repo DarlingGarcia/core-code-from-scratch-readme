@@ -149,7 +149,15 @@ FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/128996495/231914436-34206f09-915a-4728-8e09-49ce32b66682.png)
 
 ## Week 2 Mod
-
+```
+Algoritmo EvenOrOdd
+	Imprimir "Insert a number"
+	number = 0
+	Leer number
+	result = number % 2
+	Imprimir result
+FinAlgoritmo
+```
 ![image](https://user-images.githubusercontent.com/128996495/231916848-f2c338f3-da15-4f4e-aa36-c32bd750e478.png)
 
 ![image](https://user-images.githubusercontent.com/128996495/231916910-7ed17a6f-a8d7-4770-94e3-c5c3f4d29ce1.png)
