@@ -211,3 +211,33 @@ Algoritmo UserForm
 12. (T | F ) & (F | F) = T ❌
 13. ~((T | F ) & (F | F)) & F = T ❌
 14. ~((T | F ) & (F | F)) & T = F ❌
+
+## Week 2 Boolean Results
+
+```
+Algoritmo BooleanResults
+	// The value for a is obtained by checking if 5 is equal to 3
+	// Result: False
+	a <- 5 == 3
+	
+	// The value for b is obtained by checking if 4 is not equal to 3
+	// Result: True
+	b <- 4 <> 3
+	
+	// The value for c is obtained by checking if 7 is greater than 7
+	// Result: False
+	c <- 7 > 7
+	
+	// The value for d is obtained by checking if 4 is less than 4
+	// Result: False
+	d <- 4 < 4
+	
+	// The value for e is obtained by checking if 100 is less than or equal to 90
+	// Result: False
+	e <- 100 <= 90
+	
+	// The value for f is obtained by checking if 40 is greater than or equal to 40
+	// Result: True
+	f <- 40 >= 40
+FinAlgoritmo
+```
