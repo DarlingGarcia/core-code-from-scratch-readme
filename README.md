@@ -241,3 +241,17 @@ Algoritmo BooleanResults
 	f <- 40 >= 40
 FinAlgoritmo
 ```
+
+## Week 2 Identify odd and even numbers
+
+```
+Algoritmo OddAndEvenNumbers
+	Imprimir "Insert a number: "
+	Leer numero
+	Si numero % 2 == 0 Entonces
+		Imprimir "Number " + ConvertirATexto(numero) + " is even" 
+	SiNo
+		Imprimir "Number " + ConvertirATexto(numero) + " is odd" 
+	Fin Si
+FinAlgoritmo
+```
