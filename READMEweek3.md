@@ -165,7 +165,7 @@ FinAlgoritmo
 ```
 Algoritmo SimpleCalculatorWithDoWhile
 	Escribir "==========Simple Calculator========="
-	ejecutarElBucle = Verdadero
+	shouldRunLoop = Verdadero
 	Repetir		
 		Escribir "Insert the first number"
 		Leer string1
@@ -196,9 +196,9 @@ Algoritmo SimpleCalculatorWithDoWhile
 		Fin Segun
 		Escribir "Do you want to do another operation? (y/n)"
 		Leer yesOrNo
-		Si yesOrNo == "n" Entonces
-			ejecutarElBucle = Falso
+		Si Minusculas(yesOrNo) == "n" | Minusculas(yesOrNo) == "no" Entonces
+			shouldRunLoop = Falso
 		Fin Si
-	Mientras Que ejecutarElBucle
+	Mientras Que shouldRunLoop
 FinAlgoritmo
 ```
