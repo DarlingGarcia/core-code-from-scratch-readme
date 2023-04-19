@@ -160,3 +160,45 @@ Algoritmo MultiplicationTables
 	Fin Mientras
 FinAlgoritmo
 ```
+## Simple Calculator With Do While
+
+```
+Algoritmo SimpleCalculatorWithDoWhile
+	Escribir "==========Simple Calculator========="
+	ejecutarElBucle = Verdadero
+	Repetir		
+		Escribir "Insert the first number"
+		Leer string1
+		number1 = ConvertirANumero(string1)
+		
+		Escribir "Insert the second number"
+		Leer string2
+		number2 = ConvertirANumero(string2)
+		
+		Escribir "Choose one of the allowed operations (+, -, *, /)"
+		Leer operation
+		result = 0
+		Segun operation Hacer
+			"+":
+				Escribir "Processing: " + ConvertirATexto(number1) + " + " + ConvertirATexto(number2)
+				Escribir "Result: " + ConvertirATexto(number1 + number2)
+			"-":
+				Escribir "Processing: " + ConvertirATexto(number1) + " - " + ConvertirATexto(number2)
+				Escribir "Result: " + ConvertirATexto(number1 - number2)
+			"*":
+				Escribir "Processing: " + ConvertirATexto(number1) + " * " + ConvertirATexto(number2)
+				Escribir "Result: " + ConvertirATexto(number1 * number2)
+			"/":
+				Escribir "Processing: " + ConvertirATexto(number1) + " / " + ConvertirATexto(number2)
+				Escribir "Result: " + ConvertirATexto(number1 / number2)
+			De Otro Modo:
+				Escribir "That operation is invalid"
+		Fin Segun
+		Escribir "Do you want to do another operation? (y/n)"
+		Leer yesOrNo
+		Si yesOrNo == "n" Entonces
+			ejecutarElBucle = Falso
+		Fin Si
+	Mientras Que ejecutarElBucle
+FinAlgoritmo
+```
