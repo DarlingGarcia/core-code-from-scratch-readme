@@ -61,3 +61,36 @@ Algoritmo specialNumber
 	FinSi
 FinAlgoritmo
 ```
+## Simple calculator with Switch
+
+```
+Algoritmo SimpleCalculator
+	Escribir "Insert the first number"
+	Leer string1
+	number1 = ConvertirANumero(string1)
+	
+	Escribir "Insert the second number"
+	Leer string2
+	number2 = ConvertirANumero(string2)
+	
+	Escribir "Choose one of the allowed operations (+, -, *, /)"
+	Leer operation
+	result = 0
+	Segun operation Hacer
+		"+":
+			Escribir "Processing: " + ConvertirATexto(number1) + " + " + ConvertirATexto(number2)
+			Escribir "Result: " + ConvertirATexto(number1 + number2)
+		"-":
+			Escribir "Processing: " + ConvertirATexto(number1) + " - " + ConvertirATexto(number2)
+			Escribir "Result: " + ConvertirATexto(number1 - number2)
+		"*":
+			Escribir "Processing: " + ConvertirATexto(number1) + " * " + ConvertirATexto(number2)
+			Escribir "Result: " + ConvertirATexto(number1 * number2)
+		"/":
+			Escribir "Processing: " + ConvertirATexto(number1) + " / " + ConvertirATexto(number2)
+			Escribir "Result: " + ConvertirATexto(number1 / number2)
+		De Otro Modo:
+			Escribir "That operation is invalid"
+	Fin Segun
+FinAlgoritmo
+```
