@@ -146,3 +146,17 @@ Algoritmo MultiOptionProgram
 FinAlgoritmo
 ```
 
+## Multiplication Tables
+
+```
+Algoritmo MultiplicationTables
+	Imprimir "=============Multiplication Tables================="
+	Imprimir "Enter a number"
+	Leer number 
+	counter <- 1
+	Mientras counter <= 10 Hacer
+		Imprimir number + " * " + ConvertirATexto(counter) + " = " + ConvertirATexto(ConvertirANumero(number) * counter)
+		counter <- counter + 1
+	Fin Mientras
+FinAlgoritmo
+```
