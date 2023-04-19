@@ -45,3 +45,19 @@ FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/128996495/232847057-a38b4f63-9b34-40f3-bcd9-6adee9008733.png)
 
+## Special Number
+
+```
+Algoritmo specialNumber
+	Leer n
+	Si n == 100 Entonces
+		Imprimir 'This is a special number'
+	SiNo
+		Si n < 1000 & n % 10 == 0 Entonces
+			Imprimir 'This number is almost special'
+		SiNo
+			Imprimir 'Just a regular number'
+		FinSi
+	FinSi
+FinAlgoritmo
+```
