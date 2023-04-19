@@ -94,3 +94,55 @@ Algoritmo SimpleCalculator
 	Fin Segun
 FinAlgoritmo
 ```
+
+## Multi Option Program
+
+```
+Algoritmo MultiOptionProgram
+	Imprimir "========Choose an option========"
+	Imprimir "1. Sum two numbers"
+	Imprimir "2. Print the day of the week given the day number"
+	Imprimir "3. Print the length of a given text"
+	Leer option 
+	
+	Segun option Hacer
+		1:
+			Imprimir "Option #1 Sum two numbers"
+			Imprimir "Insert the first number"
+			Leer number1
+			Imprimir "Insert the second number"
+			Leer number2
+			Imprimir "Result: " + ConvertirATexto(number1 + number2)
+		2:
+			Imprimir "Option #2 Print the day of the week given the day number"
+			Imprimir "Insert a day number (1 - 7)"
+			Leer number
+			Segun number Hacer
+				"1":
+					Imprimir "Monday"
+				"2":
+					Imprimir "Tuesday"
+				"3":
+					Imprimir "Wednesday"
+				"4":
+					Imprimir "Thursday"
+				"5":
+					Imprimir "Friday"
+				"6":
+					Imprimir "Saturday"
+				"7":
+					Imprimir "Sunday"
+				De Otro Modo:
+					Imprimir "That is not a day number"
+			Fin Segun
+		3:
+			Imprimir "Option #3 Print the length of a given text"
+			Imprimir "Insert a text"
+			Leer text
+			Imprimir "Result: " + ConvertirATexto(Longitud(text))
+		De Otro Modo:
+			Imprimir "Option not available"
+	Fin Segun
+FinAlgoritmo
+```
+
