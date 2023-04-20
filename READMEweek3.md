@@ -202,3 +202,15 @@ Algoritmo SimpleCalculatorWithDoWhile
 	Mientras Que shouldRunLoop
 FinAlgoritmo
 ```
+## Multiplication Tables With For Loop
+
+```
+Algoritmo MultiplicationTablesWithForLoop
+	Imprimir "=============Multiplication Tables================="
+	Imprimir "Enter a number"
+	Leer number 
+	Para counter <- 1 Hasta 10 Con Paso 1 Hacer
+		Imprimir number + " * " + ConvertirATexto(counter) + " = " + ConvertirATexto(ConvertirANumero(number) * counter)
+	Fin Para
+FinAlgoritmo
+```
