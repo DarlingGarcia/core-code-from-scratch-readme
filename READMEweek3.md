@@ -202,3 +202,7 @@ Algoritmo SimpleCalculatorWithDoWhile
 	Mientras Que shouldRunLoop
 FinAlgoritmo
 ```
+
+```
+hello testing
+```
