@@ -214,3 +214,29 @@ Algoritmo MultiplicationTablesWithForLoop
 	Fin Para
 FinAlgoritmo
 ```
+## Ascending and Descending Numbers
+
+```
+Algoritmo AscendingAndDescendingNumbers
+	Imprimir "==========Ascending and Descending Numbers======="
+	Imprimir "Insert a number"
+	Leer number	
+	Imprimir "Available options:"
+	Imprimir "1. Show in ascending order"
+	Imprimir "2. Show in descending order"
+	Imprimir "Choose an option"
+	Leer option
+	Segun option Hacer
+		"1":
+			Para counter <- 0 Hasta number Con Paso 1 Hacer
+				Imprimir counter
+			Fin Para
+		"2":
+			Para counter <- number Hasta 0 Con Paso -1 Hacer
+				Imprimir counter
+			Fin Para
+		De Otro Modo:
+			Imprimir "That is not an option"
+	Fin Segun
+FinAlgoritmo
+```
