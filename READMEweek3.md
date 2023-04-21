@@ -240,3 +240,39 @@ Algoritmo AscendingAndDescendingNumbers
 	Fin Segun
 FinAlgoritmo
 ```
+
+## Greetings
+
+```
+Algoritmo Greetings
+	Imprimir "======Cheers======"
+	keepRunning = Verdadero
+	counter = 0
+	Mientras keepRunning Hacer
+		Imprimir "Insert current time (0 - 23):"
+		Leer  hour
+		
+		Si ~(hour < 0 | hour > 23) Entonces
+			counter = counter + 1
+			Si hour >= 0 & hour <= 12 Entonces
+				Imprimir "Good Morning!"
+			Fin Si
+			Si hour > 12 & hour <= 18 Entonces
+				Imprimir "Good Afternoon!"
+			Fin Si
+			Si hour > 18 & hour <= 23 Entonces
+				Imprimir "Good Night!"
+			Fin Si
+		SiNo
+			Imprimir "That is an invalid hour"
+		Fin Si
+		
+		Imprimir "Do you want to keep going? (Yes / No)"
+		Leer yesOrNo
+		Si Minusculas(yesOrNo) == "no" | Minusculas(yesOrNo) == "n" Entonces
+			keepRunning = Falso
+		Fin Si
+	Fin Mientras
+	Imprimir "Number of greetings: " + ConvertirATexto(counter)
+FinAlgoritmo
+```
