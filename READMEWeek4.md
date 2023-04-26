@@ -44,3 +44,42 @@ Algoritmo EvenOrOdd
 	Mientras Que ~(number >= 1 & number <= 50)
 FinAlgoritmo
 ```
+## Predefined Functions
+
+![image](https://user-images.githubusercontent.com/128996495/234453541-5cfe211b-f975-4bda-874c-ae563b1c73d0.png)
+
+```
+Algoritmo PredefinedFunctions
+	Imprimir "Absolute Value"
+	Imprimir "Absolute value of -20: " + ConvertirATexto(abs(-20))
+	Imprimir	""
+	
+	Imprimir "Truncate"
+	Imprimir "Truncated value of 3.59: " + ConvertirATexto(trunc(3.59))
+	Imprimir	""
+	
+	Imprimir "Rounding Function"
+	Imprimir "Rounded value of 7.5: " + ConvertirATexto(redon(7.5))
+	Imprimir	""
+	
+	Imprimir "Random Function"
+	Imprimir "Random value between 0 and 15: " + ConvertirATexto(azar(15))
+	Imprimir	""
+	
+	Imprimir "Length Function"
+	Imprimir "Legth of the string What Happen: " + ConvertirATexto(Longitud("What Happen"))
+	Imprimir	""
+	
+	Imprimir "Uppercase Function"
+	Imprimir "String pseint converted to uppercase: " + Mayusculas("pseint")
+	Imprimir	""
+	
+	Imprimir "Lowercase Function"
+	Imprimir "String JAVASCRIPT converted to lowercase: " + Minusculas("JAVASCRIPT")
+	Imprimir	""
+	
+	Imprimir "Substring Function"
+	Imprimir "Substring of Programming: " + Subcadena("Programming", 0, 3)
+	Imprimir	""
+FinAlgoritmo
+```
