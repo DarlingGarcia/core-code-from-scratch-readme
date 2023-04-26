@@ -116,3 +116,20 @@ Algoritmo ThrowDice
 	Fin Para
 FinAlgoritmo
 ```
+
+## Distance to zero
+
+```
+Algoritmo DistanceToZero
+	greatestNumber = 0
+	Para i = 1 Hasta 5 Con Paso 1 Hacer
+		Imprimir "Write a number"
+		Leer number
+		number = abs(number)
+		Si greatestNumber < number Entonces
+			greatestNumber = number
+		Fin Si
+	Fin Para
+	Imprimir trunc(greatestNumber)
+FinAlgoritmo
+```
