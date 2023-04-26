@@ -83,3 +83,19 @@ Algoritmo PredefinedFunctions
 	Imprimir	""
 FinAlgoritmo
 ```
+
+## Full Name
+
+```
+Funcion result <- Capitalize ( word )
+	result = Mayusculas(Subcadena(word,0,0)) + Minusculas(Subcadena(word,1, Longitud(word) -1))
+Fin Funcion
+
+Algoritmo FullName
+	Imprimir "Write a name: "
+	Leer name
+	Imprimir "Write a last name"
+	Leer lastName
+	Imprimir Capitalize(name) + " " + Capitalize(lastName)
+FinAlgoritmo
+```
