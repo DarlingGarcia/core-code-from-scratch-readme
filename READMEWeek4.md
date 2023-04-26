@@ -170,3 +170,21 @@ Algoritmo TossCoin
 	Imprimir result
 FinAlgoritmo
 ```
+
+## Total Price
+
+```
+Funcion result <- TotalPrice (price, vat)
+	result = price * (1 + vat / 100)
+	Si price > 3000 Entonces
+		result = result - (result * 0.10)
+	Fin Si
+Fin Funcion
+
+
+Algoritmo TotalPriceMain
+	Imprimir TotalPrice(5000, 21)
+	Imprimir TotalPrice(3000, 10)
+	Imprimir TotalPrice(2000, 15)
+FinAlgoritmo
+```
