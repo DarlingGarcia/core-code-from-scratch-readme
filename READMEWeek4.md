@@ -133,3 +133,40 @@ Algoritmo DistanceToZero
 	Imprimir trunc(greatestNumber)
 FinAlgoritmo
 ```
+
+##  Toss Coin
+
+```
+Algoritmo TossCoin
+	Imprimir "Enter the name of the first player"
+	Leer player1
+	Imprimir "Enter the amount to play"
+	Leer amount1
+	Imprimir "Enter the name of the second player"
+	Leer player2
+	Imprimir "Enter the amount to play"
+	Leer amount2
+	
+	result = ""
+	Si amount1 <= 0 | amount2 <= 0 Entonces
+		Si amount1 <= 0 & amount2 <= 0 Entonces
+			result = "game canceled"
+		SiNo
+			Si amount1 <= 0 Entonces
+				result = "player wins: " + Mayusculas(player2) + " amount won: 0"
+			SiNo
+				result = "player wins: " + Mayusculas(player1) + " amount won: 0"
+			Fin Si	
+		Fin Si
+		
+	SiNo
+		Si Aleatorio(1,2) == 1 Entonces
+			result = "player wins: " + Mayusculas(player1) + " amount won: " + ConvertirATexto(amount1)
+		SiNo
+			result = "player wins: " + Mayusculas(player2) + " amount won: " + ConvertirATexto(amount2)
+		Fin Si
+	Fin Si
+	
+	Imprimir result
+FinAlgoritmo
+```
