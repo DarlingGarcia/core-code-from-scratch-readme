@@ -99,3 +99,20 @@ Algoritmo FullName
 	Imprimir Capitalize(name) + " " + Capitalize(lastName)
 FinAlgoritmo
 ```
+
+## Throw Dice
+
+```
+Algoritmo ThrowDice
+	Definir die1, die2 Como Entero
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		die1 = Aleatorio(1,6)
+		die2 = Aleatorio(1,6)
+		Si die1 == die2 Entonces
+			Imprimir die1, " ", die2, " the dice are the same"
+		SiNo
+			Imprimir die1, " ", die2
+		Fin Si
+	Fin Para
+FinAlgoritmo
+```
