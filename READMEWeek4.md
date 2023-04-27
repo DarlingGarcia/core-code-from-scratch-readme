@@ -188,3 +188,29 @@ Algoritmo TotalPriceMain
 	Imprimir TotalPrice(2000, 15)
 FinAlgoritmo
 ```
+
+## Reverse Direction And Size
+
+```
+Funcion result <- RevertCase ( letter )
+	Si letter == Mayusculas(letter) Entonces
+		result = Minusculas(letter)
+	SiNo
+		result = Mayusculas(letter)
+	Fin Si
+Fin Funcion
+
+Funcion ReverseDirectionAndSize ( )
+	Imprimir "Insert a message"
+	Leer message
+	string = ""
+	Para i = Longitud(message) -1 Hasta 0 Con Paso -1 Hacer
+		string = string + RevertCase(Subcadena(message, i, i))
+	Fin Para
+	Imprimir string
+Fin Funcion
+
+Algoritmo Example_ReverseDirectionAndSize
+	ReverseDirectionAndSize()
+FinAlgoritmo
+```
