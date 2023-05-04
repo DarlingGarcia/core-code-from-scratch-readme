@@ -49,3 +49,31 @@ Algoritmo TimeCoverter
 FinAlgoritmo
 
 ```
+## Compare Distances
+
+```
+Funcion result <- compareDistances()
+	positiveSum = 0
+	negativeSum = 0
+	Para i = 1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Write a number"
+		Leer number
+		Si number > 0 Entonces
+			positiveSum = positiveSum + number
+			
+		SiNo
+			negativeSum = negativeSum + number
+		Fin Si
+	Fin Para
+	Si positiveSum > abs(negativeSum) Entonces
+		result = Verdadero
+	SiNo
+		result = Falso	
+	Fin Si
+Fin Funcion
+
+
+Algoritmo CompareDistancesExample
+	Imprimir compareDistances()
+FinAlgoritmo
+```
