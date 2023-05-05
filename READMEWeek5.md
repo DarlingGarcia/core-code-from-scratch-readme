@@ -144,16 +144,58 @@ Funcion  Cashier()
 			balance = balance - amount
 		Fin Si
 		
-		Si option <> "a" & option <> "b" & option <> "c" Entonces
+		Si option != "a" & option != "b" & option != "c" Entonces
 			Imprimir "Invalid option"
 		Fin Si
 		Imprimir ""
-	Mientras Que option <> "c"
+	Mientras Que option != "c"
 	Imprimir balance
 Fin Funcion
 
 
 Algoritmo CashierExample
 	Cashier()
+FinAlgoritmo
+```
+
+## Weather average
+
+```
+Funcion result <- convertToCelsius (f)
+	result = (f - 32)*(5/9)
+Fin Funcion
+
+Funcion  WeatherAverage()
+	temperature = 0
+	counter = 0
+	Repetir
+		Imprimir "Select an option:"
+		Imprimir "a. Enter degrees celsius."
+		Imprimir "b. Enter degrees fahrenheit."
+		Imprimir "x. go out."
+		Leer option
+		Si option == "a" Entonces
+			Leer celsius
+			temperature = temperature + celsius
+			counter = counter + 1
+		Fin Si
+		
+		Si option == "b" Entonces
+			Leer fahrenheit
+			temperature = temperature + convertToCelsius(fahrenheit)
+			counter = counter + 1
+		Fin Si
+		
+		Si option != "a" & option != "b" & option != "x" Entonces
+			Imprimir "Invalid option"
+		Fin Si
+		Imprimir ""
+	Mientras Que option != "x"
+	Imprimir temperature/counter
+Fin Funcion
+
+
+Algoritmo WeatherAverageExample
+	WeatherAverage()
 FinAlgoritmo
 ```
