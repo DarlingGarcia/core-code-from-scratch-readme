@@ -97,3 +97,27 @@ Algoritmo SumOfPairsExample
 	Imprimir SumOfPairs
 FinAlgoritmo
 ```
+## Mid Point
+
+```
+Funcion result <- MidPoint(number1, number2)
+	Si number1 == number2 Entonces
+		result = 0
+	SiNo
+		Si (number1 > 0 & number2 > 0) | (number1 < 0 & number2 < 0) Entonces
+			result = (number1 + number2) / 2
+		SiNo
+			Si number1 > number2 Entonces
+				result =(number1 + number2) / 2
+			SiNo
+				result =(number2 + number1) / 2
+			Fin Si
+		Fin Si
+	Fin Si
+	
+Fin Funcion
+
+Algoritmo MidPointExample
+	Imprimir MidPoint(40, -80)
+FinAlgoritmo
+```
