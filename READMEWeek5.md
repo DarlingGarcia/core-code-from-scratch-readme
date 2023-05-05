@@ -77,3 +77,23 @@ Algoritmo CompareDistancesExample
 	Imprimir compareDistances()
 FinAlgoritmo
 ```
+
+## Sum Of Pairs
+
+```
+Funcion result <- SumOfPairs()
+	result = 0
+	Repetir
+		Imprimir "Write a number between 1 to 100"
+		Leer number
+		Si number % 2 == 0 &  number > 0 & number < 101 Entonces
+			result = result + number
+		Fin Si
+	Mientras Que number > 0 & number < 101
+	Imprimir "Invalid Number"
+Fin Funcion
+
+Algoritmo SumOfPairsExample
+	Imprimir SumOfPairs
+FinAlgoritmo
+```
