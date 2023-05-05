@@ -121,3 +121,39 @@ Algoritmo MidPointExample
 	Imprimir MidPoint(40, -80)
 FinAlgoritmo
 ```
+## Cashier
+
+```
+Funcion  Cashier()
+	balance = 1000
+	Repetir
+		Imprimir "Select an option:"
+		Imprimir "a. to deposit."
+		Imprimir "b. withdraw."
+		Imprimir "c. go out."
+		Leer option
+		Si option == "a" Entonces
+			Imprimir "How much do you want to deposit?:"
+			Leer amount
+			balance = balance + amount
+		Fin Si
+		
+		Si option == "b" Entonces
+			Imprimir "How much do you want to withdraw?:"
+			Leer amount
+			balance = balance - amount
+		Fin Si
+		
+		Si option <> "a" & option <> "b" & option <> "c" Entonces
+			Imprimir "Invalid option"
+		Fin Si
+		Imprimir ""
+	Mientras Que option <> "c"
+	Imprimir balance
+Fin Funcion
+
+
+Algoritmo CashierExample
+	Cashier()
+FinAlgoritmo
+```
