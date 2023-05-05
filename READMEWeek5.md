@@ -1,4 +1,4 @@
-## Time Coverter
+## Time Converter
 
 ```
 Funcion number <- GetValidNumber (message)
