@@ -199,3 +199,14 @@ Algoritmo WeatherAverageExample
 	WeatherAverage()
 FinAlgoritmo
 ```
+## JavaScript If
+
+```
+let age = 17
+
+if (age >= 18) {
+  console.log("It is not a minor")
+} else {
+  console.log("It is a minor")
+}
+```
