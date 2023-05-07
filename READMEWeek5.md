@@ -220,3 +220,10 @@ while (count <= 10) {
   count++
 }
 ```
+## JavaScript For Loop
+
+```
+for (iterator = 1; iterator < 11; iterator++){
+  console.log(iterator)
+}
+```
