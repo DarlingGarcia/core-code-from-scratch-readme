@@ -210,3 +210,13 @@ if (age >= 18) {
   console.log("It is a minor")
 }
 ```
+## JavaScript While
+
+```
+let count = 1
+
+while (count <= 10) {
+  console.log(count)
+  count++
+}
+```
