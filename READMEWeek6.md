@@ -46,3 +46,15 @@ function hello() {
 return 'Hello world!'
 }
 ```
+
+## Multiple functions
+
+```
+function a() {
+return 'Hello a!';
+}
+
+function b() {
+return 'Hello b!'
+}
+```
