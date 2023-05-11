@@ -9,3 +9,11 @@ let firstname = "Lata"
 ```
 'Geeta'
 ```
+
+## Several Variables
+
+```
+let flower = 'rose'
+let tree = 'maple'
+```
+
