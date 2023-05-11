@@ -39,3 +39,10 @@ x = z;
 'Hardy'
 ```
 
+## Functions
+
+```
+function hello() {
+return 'Hello world!'
+}
+```
