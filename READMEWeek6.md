@@ -17,3 +17,13 @@ let flower = 'rose'
 let tree = 'maple'
 ```
 
+## Reassignment
+
+```
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+
+'Toe'
+```
+
