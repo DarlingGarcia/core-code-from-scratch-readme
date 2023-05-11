@@ -80,3 +80,14 @@ let x = reply('How do you do?');
 
 'How do you do?'
 ```
+
+## Parameters
+
+```
+function echo(name){
+return name;
+}
+
+let result = echo('Greta')
+```
+
