@@ -58,3 +58,13 @@ function b() {
 return 'Hello b!'
 }
 ```
+
+## Function Calls
+
+```
+function greet() {
+return 'Haydo!';
+}
+
+let salutation = greet()
+```
