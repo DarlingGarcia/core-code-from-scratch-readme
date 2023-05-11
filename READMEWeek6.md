@@ -68,3 +68,15 @@ return 'Haydo!';
 
 let salutation = greet()
 ```
+
+## What is x? (Function version)
+
+```
+function reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+
+'How do you do?'
+```
