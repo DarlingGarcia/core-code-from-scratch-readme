@@ -43,7 +43,7 @@ x = z;
 
 ```
 function hello() {
-return 'Hello world!'
+  return 'Hello world!'
 }
 ```
 
@@ -51,11 +51,11 @@ return 'Hello world!'
 
 ```
 function a() {
-return 'Hello a!';
+  return 'Hello a!';
 }
 
 function b() {
-return 'Hello b!'
+  return 'Hello b!'
 }
 ```
 
@@ -63,7 +63,7 @@ return 'Hello b!'
 
 ```
 function greet() {
-return 'Haydo!';
+  return 'Haydo!';
 }
 
 let salutation = greet()
@@ -85,9 +85,16 @@ let x = reply('How do you do?');
 
 ```
 function echo(name){
-return name;
+  return name;
 }
 
 let result = echo('Greta')
 ```
 
+## Strings
+
+```
+function greet(name){
+  return 'Hello ' + name + '!'
+}
+```
