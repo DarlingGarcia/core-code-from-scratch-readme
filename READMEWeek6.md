@@ -98,3 +98,12 @@ function greet(name){
   return 'Hello ' + name + '!'
 }
 ```
+
+## String: length
+
+```
+function length(name){
+  return name.length
+}
+```
+
