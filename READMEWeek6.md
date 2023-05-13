@@ -107,3 +107,13 @@ function length(name){
 }
 ```
 
+## String: toUpperCase() and toLowerCase()
+
+```
+function toCase(name){
+return name.toLowerCase() + '-' + name.toUpperCase()
+}
+```
+
+
+
