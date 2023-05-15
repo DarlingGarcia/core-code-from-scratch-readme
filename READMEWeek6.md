@@ -111,9 +111,16 @@ function length(name){
 
 ```
 function toCase(name){
-return name.toLowerCase() + '-' + name.toUpperCase()
+  return name.toLowerCase() + '-' + name.toUpperCase()
 }
 ```
 
+## String: charAt()
+
+```
+function shortcut(name1, name2){
+  return name1.charAt(0) + name2.charAt(0)
+}
+```
 
 
