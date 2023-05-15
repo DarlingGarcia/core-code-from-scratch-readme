@@ -123,4 +123,13 @@ function shortcut(name1, name2){
 }
 ```
 
+## String: indexOf()
+
+```
+function indexOfIgnoreCase(word1, word2) {
+  word1 = word1.toLowerCase()
+  word2 = word2.toLowerCase()
+  return word1.indexOf(word2)
+}
+```
 
