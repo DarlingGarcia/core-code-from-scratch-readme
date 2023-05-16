@@ -15,3 +15,14 @@ function normalize(date){
   return date.replaceAll('-', '/')
 }
 ```
+
+## Increment
+
+```
+let x = 3;
+x++;
+x = x * 2;
+x--;
+
+The solution is 7
+```
