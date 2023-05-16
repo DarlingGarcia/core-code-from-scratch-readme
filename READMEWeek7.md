@@ -7,3 +7,11 @@ function firstWord(word){
   return word.substr(0, foundIndex)
 }
 ```
+
+## String: replace()
+
+```
+function normalize(date){
+  return date.replaceAll('-', '/')
+}
+```
