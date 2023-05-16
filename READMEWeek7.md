@@ -26,3 +26,12 @@ x--;
 
 The solution is 7
 ```
+
+## Fahrenheit
+
+```
+function toFahrenheit(celsius){
+  return (celsius * 9/5) + 32
+}
+```
+
