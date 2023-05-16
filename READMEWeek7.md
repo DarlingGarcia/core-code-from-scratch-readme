@@ -35,3 +35,10 @@ function toFahrenheit(celsius){
 }
 ```
 
+## Boolean
+
+```
+function nand(bool1, bool2){
+  return !(bool1 && bool2)
+}
+```
