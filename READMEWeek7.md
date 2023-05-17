@@ -42,3 +42,11 @@ function nand(bool1, bool2){
   return !(bool1 && bool2)
 }
 ```
+
+## Objects
+
+```
+function animal(obj){
+  return "This " + obj.color + " " + obj.name + " has " + obj.legs + " legs."
+}
+```
