@@ -50,3 +50,13 @@ function animal(obj){
   return "This " + obj.color + " " + obj.name + " has " + obj.legs + " legs."
 }
 ```
+
+## Return to sanity
+
+```
+function mystery() {
+  var results = {sanity: 'Hello'};
+  return results;
+}
+```
+
