@@ -80,3 +80,23 @@ var rooms = {
   }
 }
 ```
+
+## Count strings in objects
+
+```
+function strCount(arr){
+  let count = 0
+  if(!Array.isArray(arr)){
+    arr = Object.values(arr)
+  }
+  
+  for(let i = 0; i < arr.length; i++){
+    if(typeof arr[i] === "string"){
+      ++count
+    } else if(typeof arr[i] === "object" && arr[i] !== null){
+      count += strCount(arr[i])
+    }
+  }
+  return count
+}
+```
