@@ -112,3 +112,19 @@ Array.prototype.last = function(){
   return this[this.length -1]
 }
 ```
+
+##  Object Oriented Piracy
+
+```
+function Ship(draft,crew) {
+ this.draft = draft;
+ this.crew = crew;
+ this.isWorthIt = () => {
+   if(this.draft - (this.crew * 1.5) > 20){
+     return true
+   }else{
+     return false
+   }
+ }
+}
+```
