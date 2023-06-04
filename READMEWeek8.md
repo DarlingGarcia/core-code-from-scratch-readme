@@ -97,3 +97,32 @@ decodeMorse = function(morseCode){
   return arr.join(" ")
 }
 ```
+
+## Who likes it?
+
+```
+function likes(names) {
+  let resultado = ""
+  
+  if(names.length === 0){
+    resultado = "no one likes this"
+  }
+                     
+  if(names.length === 1){
+    resultado = names[0] + " likes this"
+  }
+  
+  if(names.length === 2){
+    resultado = names[0] + " and " + names[1] +" like this"
+  }
+  
+  if(names.length === 3){
+    resultado = names[0] + ", " + names[1] + " and " + names[2] + " like this"
+  }
+  
+  if(names.length > 3){
+    resultado = names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this"
+  }
+  return resultado
+}
+```
