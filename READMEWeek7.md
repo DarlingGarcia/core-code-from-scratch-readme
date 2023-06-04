@@ -136,3 +136,21 @@ const stringToNumber = function(str){
   return Number(str);
 }
 ```
+
+## Convert number to reversed array of digits
+
+```
+function digitize(n) {
+  //convert to a string
+  let myString = String(n)
+  
+  //convert string to an array of numbers
+  let arr = myString.split("").map((elem) => Number(elem))
+      
+  //call array.reverse()
+  arr = arr.reverse()
+  
+  //return arr
+  return arr
+}
+```
