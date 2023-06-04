@@ -81,3 +81,19 @@ function warnTheSheep(queue) {
   return `Oi! Sheep number ${revArr.indexOf('wolf')}! You are about to be eaten by a wolf!`
 }
 ```
+
+## Decode the morse code
+
+```
+decodeMorse = function(morseCode){
+  let input = morseCode
+  input = input.trim()
+  let arr = input.split("   ")
+  arr = arr.map((morseWord) => {    
+    morseWord = morseWord.split(' ')
+    morseWord = morseWord.map((morseChar) => MORSE_CODE[morseChar])
+    return morseWord.join("")
+  })
+  return arr.join(" ")
+}
+```
