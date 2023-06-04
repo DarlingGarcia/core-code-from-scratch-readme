@@ -154,3 +154,10 @@ function digitize(n) {
   return arr
 }
 ```
+
+## Truthy and Falsy
+
+```
+const truthy = [1,2,3,4,"2"];
+const falsy = [0,false,null,undefined,""];
+```
