@@ -26,3 +26,19 @@ function processData(data){
 }
 ```
 
+## Stop gninnipS My sdroW!
+```
+function spinWords(string){
+  let arr = string.split(" ")
+  
+  arr = arr.map((word) => {
+    if(word.length >= 5){
+      word = word.split('')
+      word = word.reverse().join('')
+    }
+    return word
+  })
+  return arr.join(" ")
+}
+```
+
