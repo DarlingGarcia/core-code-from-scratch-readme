@@ -42,3 +42,36 @@ function spinWords(string){
 }
 ```
 
+## "this" is an other problem
+```
+function NamedOne(first, last) {
+// -- SHOULD be changed --
+    Object.defineProperty(this, 'firstName', {
+      set: function(newFirstName){
+        first = newFirstName
+        this.fullName = newFirstName + ' ' + this.lastName
+      },
+      get: function(){return first}
+    })
+  
+   Object.defineProperty(this, 'lastName', {
+      set: function(newLastName){
+        last = newLastName
+        this.fullName = this.firstName + ' ' + newLastName
+      },
+      get: function(){return last}
+    })
+  
+     Object.defineProperty(this, 'fullName', {
+      set: function(newFullName){
+        const splitValue = newFullName.split(" ")
+        if(splitValue.length > 1){
+          first = splitValue[0]
+          last = splitValue[1]
+        }
+      },
+      get: function(){return this.firstName + ' ' + this.lastName}
+    })  
+}
+```
+
