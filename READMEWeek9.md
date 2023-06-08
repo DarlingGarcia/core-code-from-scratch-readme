@@ -129,3 +129,26 @@ function processArray(arr, callback) {
     return arr.map(cualquierCosa => callback(cualquierCosa))
 }
 ```
+
+
+## Valid Parentheses
+```
+function validParentheses(parens) {
+  let counter = 0
+  if(parens[0] === ')'){
+    return false
+  }
+  for(let parenthese of parens){
+    if(parenthese == '('){
+      counter += 1
+    }else{
+      counter -= 1
+    }
+    // en el momento que haya dos '(' consecutivos, ya deja de ser valido
+    if(counter < 0){
+      return false
+    }
+  }
+  return counter == 0
+}
+```
