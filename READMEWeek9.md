@@ -102,3 +102,23 @@ function likes(names) {
   return resultado
 }
 ```
+
+## Convert string to camel case
+```
+function toCamelCase(myStr){
+  if(myStr.length === 0){
+    return ''
+  }
+let result =  myStr.replaceAll(/_|-/g, " ")
+let arr = result.split(' ')
+console.log(arr)
+  
+for (let i = 1; i < arr.length; i++){
+  let palabra = arr[i]
+  palabra = palabra.charAt(0).toUpperCase() + palabra.slice(1)
+  arr[i] = palabra
+}
+  console.log(arr)
+  return arr.join('')
+}
+```
