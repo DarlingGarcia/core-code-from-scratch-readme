@@ -122,3 +122,10 @@ for (let i = 1; i < arr.length; i++){
   return arr.join('')
 }
 ```
+
+## Easy mathematical callback
+```
+function processArray(arr, callback) {
+    return arr.map(cualquierCosa => callback(cualquierCosa))
+}
+```
