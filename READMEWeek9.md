@@ -170,3 +170,24 @@ function validParentheses(parens) {
   return counter == 0
 }
 ```
+
+
+## The Hashtag Generator
+```
+function generateHashtag (str) {
+  str = str.trim()
+  if(str.length === 0){
+    return false
+  }
+  
+  str = str.split(/\s+/)
+  
+  str = str.map((palabra) => palabra[0].toUpperCase() + palabra.slice(1))
+  
+  const result = "#" + str.join("")
+  if(result.length > 140){
+    return false
+  }
+  return result
+}
+```
