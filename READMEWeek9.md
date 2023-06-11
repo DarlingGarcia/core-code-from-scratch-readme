@@ -191,3 +191,63 @@ function generateHashtag (str) {
   return result
 }
 ```
+
+
+## String incrementer
+```
+function findLasNumberIndex(string){
+  let foundArr = string.match(/[a-z][0-9]+/gi)
+  if(!foundArr){
+    return 0
+  }
+  return string.indexOf(foundArr[foundArr.length - 1]) + 1
+}
+
+function incrementString (string) {
+  let indexStarting = -1
+  let regex = /[0-9]/g
+  
+  // si es solo un numero como '1'
+  if(!isNaN(Number(string)) && string.length === 1){
+    return String(Number(string) + 1)
+  }
+  
+  // if it does not contain a number
+  if(!regex.test(string)){
+    return string + '1'
+  }
+  
+  // get index of last numbers
+  indexStarting = findLasNumberIndex(string)
+  let alpha = string.slice(0, indexStarting)
+  let numeric = string.slice(indexStarting)
+  
+  let leadingZero = 0
+  
+  for(let i = 0; i < numeric.length; i++){
+    if(numeric[i] == '0'){
+      leadingZero += 1
+    }else{
+      break
+    }
+  }
+  
+  let number = Number(numeric) + 1
+  let arrNumber = String(number).split('')
+  
+  // if it just zeroes
+  if(leadingZero === numeric.length){
+    leadingZero = leadingZero -1
+  }
+  
+  // si el numero era 99 o 999 y pasa aser 100 o 1000
+  if(String(number)[String(number).length -1] == 0){
+    leadingZero = leadingZero -1
+  }
+  for(let i = 0; i < leadingZero; i++){
+    arrNumber.unshift(0)
+  }
+
+  return alpha + arrNumber.join('')
+}
+```
