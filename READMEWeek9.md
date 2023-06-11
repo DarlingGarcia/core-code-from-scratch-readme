@@ -123,6 +123,24 @@ for (let i = 1; i < arr.length; i++){
 }
 ```
 
+
+## Moving Zeros To The End
+```
+function moveZeros(arr) {
+  const zeros = arr.map((e, i) => e === 0 ? i : '').filter(x => typeof x == 'number')
+  const copyArr = [...arr]
+  for(let i = 0; i < zeros.length; i++){
+    copyArr.splice(zeros[i] - i, 1)
+  }
+  
+  for(let i = 0; i < zeros.length; i++){
+    copyArr.push(0)
+  }
+  return copyArr
+}
+```
+
+
 ## Easy mathematical callback
 ```
 function processArray(arr, callback) {
